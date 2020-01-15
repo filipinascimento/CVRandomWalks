@@ -27,7 +27,9 @@ The walking algorithm uses regular random walks and biased random walks accordin
 - `w` - length of each walk [positive integer]
 - `m` - of sentences to be generated [positive integer]
 
-Input is in `.xnet` format filipinascimento/xnet
+Input is in `.xnet` format like in [filipinascimento/xnet]. For python, you can use the `xnetwork` package.
+
+The output is a text with words separated by space and sentences separated new line. It can be used directly on 
 
 ## TODO
 - Build a python wrapper based on igraph and/or networkx
