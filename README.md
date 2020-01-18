@@ -1,5 +1,5 @@
 # CVRandomWalks
-Fast tool to obtain sentences based on random walks from networks for use in word2vec and other embedding techniques.  
+Fast tool written in C to obtain sentences based on random walks from networks. Can be used to generate input data for word2vec and other embedding techniques.  
 
 ## Requirements
 - C11 compatible compiler (GCC, CLANG)
@@ -29,10 +29,10 @@ The walking algorithm uses regular random walks and biased random walks accordin
 
 Input is in `.xnet` format like in [http://github.com/filipinascimento/xnet]. For python, you can use the `xnetwork` package.
 
-The output is a text with words separated by space and sentences separated new line. It can be used directly on 
+The output is a text with words separated by space and sentences separated by new line. It can be used directly on 
 
 ## TODO
 - Build a python wrapper based on igraph and/or networkx
 - Include other kinds of walks
-- Better help
+- Better documentation and CLI help
 - Error checking
